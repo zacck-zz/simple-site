@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports =  {
   //find this file and start from there
@@ -24,10 +25,8 @@ module.exports =  {
     //where all this needs to happen
     root: __dirname,
     alias: {
-      Main: 'app/components/Main.jsx',
-      Nav: 'app/components/Nav.jsx',
-      ErrorModal: 'app/components/ErrorModal.jsx',
-      applicationStyles: 'app/styles/app.scss'
+      applicationStyles: 'app/styles/app.scss',
+      Main: 'app/components/Main.jsx'
     },
     //files we want to process
     extensions: ['', '.js', '.jsx']
@@ -43,6 +42,11 @@ module.exports =  {
         test: /\.jsx?$/, //regex for .jsx extension
         exclude: /(node_modules|bower_components)/ //set up folders to be ignored
       }
+    ]
+  },
+  sassLoader: {
+    includePaths: [
+      path.resolve(__dirname, './node_modules/foundation-sites/scss')
     ]
   },
   devtool: 'cheap-module-eval-source-map'

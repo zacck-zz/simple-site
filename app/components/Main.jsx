@@ -1,16 +1,19 @@
 var React = require('react');
-var Nav = require('Nav');
+
+//components we need in this Component
+
+
 
 var Main = (props) => {
   return (
     <div>
       <Nav/>
-      <div className="row">
-        <div className="columns medium-6 large-4 small-centered">
-          {/*render children here*/}
-          {props.children}
+        <div className="row">
+          <div className="column small-centered medium-6 large-4">
+            {/*render children here*/}
+            {props.children}
+          </div>
         </div>
-      </div>
     </div>
   );
 }
