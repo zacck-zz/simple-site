@@ -1,8 +1,7 @@
 var React = require('react');
 
 //components we need in this Component
-
-
+var Nav = require('Nav');
 
 var Main = (props) => {
   return (
