@@ -4,3 +4,16 @@
 @import "base/foundation-settings";
 @import "foundation";
 @include foundation-everything;
+
+//import partials for pages
+@import "/components/bio";
+@import "/components/face";
+@import "/components/nav";
+
+.row {
+  min-width: 100%;
+}
+.app {
+  min-width: 100%;
+  background: $black;
+}

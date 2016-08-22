@@ -44,7 +44,12 @@ module.exports =  {
         },
         test: /\.jsx?$/, //regex for .jsx extension
         exclude: /(node_modules|bower_components)/ //set up folders to be ignored
-      }
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif|woff)$/,
+        loader: 'url-loader'
+      },
+
     ]
   },
   sassLoader: {

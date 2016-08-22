@@ -1,0 +1,16 @@
+.top-bar {
+  background: transparent !important;
+  padding-top: 1rem;
+}
+
+
+.menu{
+  background: transparent !important;
+  font-weight: bold;
+  > li {
+      color: #fff;
+      font-size: 1.2rem;
+      letter-spacing: .1rem;
+      cursor: pointer;
+  }
+}

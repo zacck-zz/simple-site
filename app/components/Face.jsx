@@ -3,8 +3,8 @@ var React = require('react');
 var Face = React.createClass({
     render: function() {
        return(
-               <div>
-                <p>Face  Component</p>
+               <div className="face-page">
+                <img className="whatsapp" src={require('../images/squreabdull.jpg')}/>
                </div>
              );
     }
