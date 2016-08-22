@@ -6,6 +6,7 @@ var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 //add components
 var Main = require('Main');
 var Bio = require('Bio');
+var Face = require('Face')
 
 
 //app css require
@@ -17,6 +18,7 @@ ReactDOM.render(    //pass two args, JSX and the app element
     {/*Main component will always be rendered*/}
     <Route path="/" component={Main}>
       {/*Add Routes here */}
+    <IndexRoute component={Face}/>
     <Route path="bio" component={Bio}/>
     </Route>
   </Router>,
