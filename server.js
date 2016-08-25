@@ -19,6 +19,6 @@ app.use(function (req, res, next){
 app.use(express.static('public')); // specifies a a folder name to expose
 
 //start the server
-app.listen(PORT, function(){ // takes the port you are serving to and a function
+app.listen(PORT,'127.0.0.1', function(){ // takes the port you are serving to and a function
   console.log('Express Server is up on port ' + PORT);//log top console
 });
