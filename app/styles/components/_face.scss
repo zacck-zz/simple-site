@@ -1,17 +1,15 @@
 .face-page {
-  background: $black;
-  width: 100%;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  min-width: 100%;
+  height: 45rem;
+  background: url('../images/abdul-small.jpg') no-repeat;
+  background-size: cover;
 }
-.whatsapp{
-  align-items: center;
-  border-radius: 50%;
-  border: 2px solid $white;
-  display: flex;
-  height: 28rem;
-  width: 28rem;
-  justify-content: center;
-  margin: 4rem auto;
-  cursor: pointer;
+
+.tag{
+  font-size: 1.7rem;
+  margin: 0 auto;
+  font-weight: bold;
+  color: $black;
+  margin-top: 29rem;
+  letter-spacing: .3rem;
 }

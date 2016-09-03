@@ -1,6 +1,5 @@
 .top-bar {
   background: transparent !important;
-  padding-top: 1rem;
 }
 
 
@@ -8,9 +7,9 @@
   background: transparent !important;
   font-weight: bold;
   > li {
-      color: #fff;
-      font-size: 1.2rem;
-      letter-spacing: .1rem;
+      color: chartreuse;
+      font-size: 1.1rem;
+      letter-spacing: .2rem;
       cursor: pointer;
   }
 }

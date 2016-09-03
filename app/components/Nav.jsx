@@ -12,7 +12,13 @@ var Nav = React.createClass({
                  <div className="top-bar-right">
                    <ul className="menu top-bar-right">
                      <li className="menu-text">
-                       Bio
+                       BIO
+                     </li>
+                     <li className="menu-text">
+                      GALLERY
+                     </li>
+                     <li className="menu-text">
+                       JAMS ♬
                      </li>
                    </ul>
                  </div>

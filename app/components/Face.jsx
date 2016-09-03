@@ -1,10 +1,11 @@
 var React = require('react');
+var Nav = require('Nav');
 
 var Face = React.createClass({
     render: function() {
        return(
                <div className="face-page">
-                <img className="whatsapp" src={require('../images/squreabdull.jpg')}/>
+                 <Nav/>
                </div>
              );
     }
